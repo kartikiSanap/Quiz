@@ -2,6 +2,7 @@ package com.example.quiz;
 
 import android.provider.BaseColumns;
 
+//class QuizContract
 public final class QuizContract {
     private QuizContract() {}
 public static class QuestionsTable implements BaseColumns {

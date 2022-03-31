@@ -37,9 +37,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(MainActivity.this,secondactivity.class);
         startActivityForResult(intent,REQUEST_CODE_QUIZ);
     }
+	
+	//onActivityResult Function
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
     {
+		
          super.onActivityResult(requestCode,resultCode,data);
          if(requestCode==REQUEST_CODE_QUIZ)
          {

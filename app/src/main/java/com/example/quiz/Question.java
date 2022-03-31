@@ -1,5 +1,6 @@
 package com.example.quiz;
 
+//class Question
 public class Question {
     private String question;
     private String option1;
